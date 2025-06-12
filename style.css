@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111554;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+}
+
+#botao {
+  padding: 20px 40px;
+  font-size: 24px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: opacity 0.8s ease;
+}
+
+#conteudo {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#conteudo.visible {
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+#foto {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  height: 340px;
+  margin-top: 50px;
+}
+
+#mensagem {
+  font-size: 20px;
+  color: #c71585;
+  margin-bottom: 20px;
+}
+
+#contador {
+  font-size: 18px;
+  color: #800080;
+}
